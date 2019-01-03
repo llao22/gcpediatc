@@ -1,0 +1,463 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,900");
+/* line 15, ../scss/main.scss */
+* {
+  font-family: 'Raleway', sans-serif; }
+
+/* line 19, ../scss/main.scss */
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #2E2E2E;
+  margin: 10px 0; }
+
+/* line 27, ../scss/main.scss */
+h4 {
+  font-size: 19px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 400;
+  color: #555555; }
+
+/* line 36, ../scss/main.scss */
+h5 {
+  color: #da5a26; }
+
+/* line 39, ../scss/main.scss */
+a {
+  color: #da5a26; }
+
+/* line 42, ../scss/main.scss */
+.hr-tick-center {
+  width: 50px;
+  border: 2px solid #da5a26; }
+
+/* line 46, ../scss/main.scss */
+.hr-tick-center-white {
+  width: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.5); }
+
+/* line 50, ../scss/main.scss */
+.btn {
+  font-size: 16px;
+  padding: 0.5em 1.5em; }
+
+/* line 54, ../scss/main.scss */
+.btn {
+  background-color: #da5a26;
+  color: #fff;
+  border: none;
+  transition: .3s; }
+  /* line 59, ../scss/main.scss */
+  .btn svg {
+    margin-left: 5px; }
+  /* line 62, ../scss/main.scss */
+  .btn:hover {
+    background-color: #da5a26;
+    opacity: 0.8;
+    transform: translate(2px); }
+
+/* line 69, ../scss/main.scss */
+h3 {
+  color: #2E2E2E;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600; }
+
+/* line 76, ../scss/main.scss */
+.boldText {
+  font-weight: 900; }
+
+/* line 80, ../scss/main.scss */
+.navbar-brand {
+  display: none; }
+  /* line 82, ../scss/main.scss */
+  .navbar-brand img {
+    height: 45px;
+    width: auto; }
+
+/* line 88, ../scss/main.scss */
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-weight: 600; }
+  /* line 92, ../scss/main.scss */
+  nav .nav-link {
+    font-size: 16px;
+    margin-right: 10px; }
+  /* line 97, ../scss/main.scss */
+  nav .dropdown-menu .dropdown-item {
+    transition: .3s; }
+    /* line 99, ../scss/main.scss */
+    nav .dropdown-menu .dropdown-item:hover {
+      background-color: #da5a26;
+      color: #fff;
+      padding-left: 28px !important; }
+    /* line 109, ../scss/main.scss */
+    nav .dropdown-menu .dropdown-item svg {
+      color: #2E2E2E;
+      margin-right: 10px; }
+  /* line 115, ../scss/main.scss */
+  nav #right-drop-fix {
+    right: 0;
+    left: auto; }
+
+/* line 121, ../scss/main.scss */
+.carousel {
+  display: none;
+  background-color: #ccc; }
+  /* line 124, ../scss/main.scss */
+  .carousel .alert {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #fff;
+    margin: 4.5em 0 0 0;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 0px; }
+    /* line 135, ../scss/main.scss */
+    .carousel .alert a {
+      color: #da5a26; }
+    /* line 138, ../scss/main.scss */
+    .carousel .alert .close {
+      color: RED;
+      font-size: 2em; }
+  /* line 144, ../scss/main.scss */
+  .carousel .carousel-item .height-max-caro {
+    max-height: 775px;
+    min-height: 300px; }
+  /* line 148, ../scss/main.scss */
+  .carousel .carousel-item .caro-text-container {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100% 0;
+    width: 100%; }
+    /* line 156, ../scss/main.scss */
+    .carousel .carousel-item .caro-text-container h1 {
+      font-weight: 900;
+      font-size: 26px; }
+    /* line 162, ../scss/main.scss */
+    .carousel .carousel-item .caro-text-container p {
+      margin: 0 0 0px 0;
+      font-size: 16px;
+      font-weight: 400;
+      text-shadow: 1px 1px #A7A7A7; }
+
+/* line 171, ../scss/main.scss */
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 9em 0 5em 0;
+  margin-bottom: 0px; }
+  /* line 178, ../scss/main.scss */
+  .jumbotron img {
+    max-width: 100px;
+    margin-bottom: 0em; }
+  /* line 183, ../scss/main.scss */
+  .jumbotron h1 {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 900;
+    padding: 1em 1em 0 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-shadow: 1px 1px #A7A7A7; }
+  /* line 193, ../scss/main.scss */
+  .jumbotron p {
+    margin: 0 0 40px 0;
+    font-size: 20x;
+    font-weight: 400;
+    text-shadow: 1px 1px #A7A7A7;
+    text-align: center; }
+  /* line 200, ../scss/main.scss */
+  .jumbotron .btn {
+    background-color: #2E2E2E;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px; }
+    /* line 205, ../scss/main.scss */
+    .jumbotron .btn svg {
+      margin-right: 7px; }
+
+/* line 210, ../scss/main.scss */
+.jumbotron-sub {
+  background-color: #da5a26;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -280px;
+  text-align: center;
+  color: #fff;
+  padding: 11em 0 8em 0; }
+  /* line 218, ../scss/main.scss */
+  .jumbotron-sub img {
+    max-width: 100px;
+    margin-bottom: 2em; }
+  /* line 223, ../scss/main.scss */
+  .jumbotron-sub h1 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+    padding: .5em 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-shadow: 1px 1px #A7A7A7; }
+  /* line 233, ../scss/main.scss */
+  .jumbotron-sub .hr-tick-center {
+    width: 50px;
+    border: 1px solid #da5a26;
+    margin: -10px auto 15px auto; }
+  /* line 238, ../scss/main.scss */
+  .jumbotron-sub p {
+    margin: 0 0 40px 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 1px 1px #A7A7A7; }
+
+/* line 245, ../scss/main.scss */
+.jumbotron-sub-even {
+  background-color: #da5a26;
+  text-align: center;
+  color: #fff;
+  padding: 9em 0 4em 0; }
+  /* line 250, ../scss/main.scss */
+  .jumbotron-sub-even h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+    padding: .5em 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-shadow: 1px 1px #A7A7A7; }
+
+/* line 261, ../scss/main.scss */
+#teal {
+  background-color: #58b6c0;
+  border: 1px solid #58b6c0; }
+  /* line 264, ../scss/main.scss */
+  #teal:hover {
+    background-color: #58b6c0; }
+
+/* line 268, ../scss/main.scss */
+#blue {
+  background-color: #6486af;
+  border: 1px solid #6486af; }
+
+/* line 272, ../scss/main.scss */
+#green {
+  background-color: #7db574;
+  border: 1px solid #7db574; }
+
+/* line 276, ../scss/main.scss */
+#orange {
+  background-color: #e37030;
+  border: 1px solid #e37030; }
+
+/* line 280, ../scss/main.scss */
+#yellow {
+  background-color: #FEAE38;
+  border: 1px solid #FEAE38; }
+
+/* line 285, ../scss/main.scss */
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0; }
+
+/* line 290, ../scss/main.scss */
+.ultimate-goal-container {
+  background-color: #da5a26;
+  padding-top: 4em; }
+  /* line 293, ../scss/main.scss */
+  .ultimate-goal-container h3, .ultimate-goal-container h4 {
+    color: #fff; }
+  /* line 296, ../scss/main.scss */
+  .ultimate-goal-container h4 {
+    padding: 0 1em; }
+
+/* line 300, ../scss/main.scss */
+.info-container {
+  text-align: center;
+  padding: 4em 0;
+  margin: 0em 2em; }
+  /* line 305, ../scss/main.scss */
+  .info-container .box-wrap .info-box {
+    transition: .3s;
+    background-color: #fff;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 3em;
+    margin-bottom: 20px;
+    color: #2E2E2E;
+    background-color: rgba(255, 255, 255, 0.95);
+    min-height: 450px; }
+    /* line 315, ../scss/main.scss */
+    .info-container .box-wrap .info-box img {
+      width: 40%;
+      max-width: 120px;
+      margin-bottom: 1em; }
+    /* line 320, ../scss/main.scss */
+    .info-container .box-wrap .info-box:hover {
+      transform: translate(0px, -2px) scale(1.02);
+      background-color: #fff; }
+
+/* line 329, ../scss/main.scss */
+.cta, .cta-2 {
+  text-align: center;
+  background-color: #fff;
+  color: #2E2E2E;
+  margin: 0 auto; }
+  /* line 334, ../scss/main.scss */
+  .cta h4, .cta-2 h4 {
+    margin-bottom: 1em; }
+  /* line 340, ../scss/main.scss */
+  .cta .text-contain-cta, .cta-2 .text-contain-cta {
+    padding: 6em 0; }
+
+/* line 345, ../scss/main.scss */
+.cta-mobile-contain {
+  display: block; }
+
+/* line 348, ../scss/main.scss */
+.cta-contain {
+  display: none; }
+
+/* line 352, ../scss/main.scss */
+.sub-info-section {
+  text-align: center;
+  padding: 3em 0; }
+  /* line 355, ../scss/main.scss */
+  .sub-info-section h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    max-width: 900px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto; }
+  /* line 364, ../scss/main.scss */
+  .sub-info-section h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 1em; }
+  /* line 370, ../scss/main.scss */
+  .sub-info-section .sub-info-box {
+    background-color: #f8f8f8;
+    padding: 2em;
+    border: 1px solid #ccc; }
+    /* line 374, ../scss/main.scss */
+    .sub-info-section .sub-info-box ul {
+      text-align: left; }
+      /* line 376, ../scss/main.scss */
+      .sub-info-section .sub-info-box ul li {
+        margin: 1em 0; }
+  /* line 382, ../scss/main.scss */
+  .sub-info-section img {
+    margin-bottom: 50px;
+    margin-top: -160px;
+    width: 280px; }
+  /* line 387, ../scss/main.scss */
+  .sub-info-section .hr-tick {
+    width: 50px;
+    border: 1px solid #da5a26;
+    margin: 1em auto 2em auto; }
+
+/* line 395, ../scss/main.scss */
+.sub-content-section {
+  padding: 6em 0; }
+  /* line 397, ../scss/main.scss */
+  .sub-content-section h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 0 auto; }
+  /* line 405, ../scss/main.scss */
+  .sub-content-section h3 {
+    text-align: left;
+    font-size: 18px; }
+  /* line 412, ../scss/main.scss */
+  .sub-content-section .content-container {
+    margin-bottom: 2em; }
+  /* line 419, ../scss/main.scss */
+  .sub-content-section img {
+    margin-bottom: 20px;
+    width: 100%; }
+  /* line 424, ../scss/main.scss */
+  .sub-content-section .hr-tick {
+    width: 50px;
+    border: 1px solid #da5a26;
+    margin: 1em 0 2em 0; }
+/* line 423, ../scss/main.scss*/
+ .info-box h2 {
+      
+font-size: 25px !important;
+      
+font-weight: 600 !important;
+      
+margin-bottom: 8px;
+      
+color: #2E2E2E;
+      
+margin: 10px 0; }
+
+/* line 431, ../scss/main.scss */
+.footer {
+  background-color: #da5a26;
+  text-align: center;
+  color: #fff;
+  padding: 3em; }
+  /* line 436, ../scss/main.scss */
+  .footer svg {
+    font-size: 2em;
+    margin: 0 7px;
+    transition: .3s; }
+    /* line 440, ../scss/main.scss */
+    .footer svg:hover {
+      transform: scale(1.2);
+      cursor: pointer; }
+
+@media (min-width: 576px) {
+  /* line 449, ../scss/main.scss */
+  .navbar-brand {
+    display: block; }
+
+  /* line 452, ../scss/main.scss */
+  .jumbotron {
+    display: none; }
+
+  /* line 455, ../scss/main.scss */
+  .carousel {
+    display: block; } }
+@media (min-width: 768px) {
+  /* line 464, ../scss/main.scss */
+  .carousel .carousel-item .caro-text-container {
+    margin-top: 20px; }
+    /* line 466, ../scss/main.scss */
+    .carousel .carousel-item .caro-text-container h1 {
+      font-size: 3em; }
+    /* line 469, ../scss/main.scss */
+    .carousel .carousel-item .caro-text-container p {
+      font-size: 24px !important; }
+
+  /* line 476, ../scss/main.scss */
+  .jumbotron-sub h1 {
+    font-size: 3em; }
+
+  /* line 480, ../scss/main.scss */
+  .cta-mobile-contain {
+    display: none; }
+
+  /* line 483, ../scss/main.scss */
+  .cta-contain {
+    display: block; } }
+@media (min-width: 992px) {
+  /* line 494, ../scss/main.scss */
+  .carousel .carousel-item .caro-text-container h1 {
+    font-size: 3.5em; } }

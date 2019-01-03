@@ -1,0 +1,205 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Bangers|Montserrat:400,600,900");
+/* line 10, main.scss */
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 14, main.scss */
+h2 {
+  margin: 0; }
+
+/* line 18, main.scss */
+h5 {
+  color: #006699; }
+
+/* line 21, main.scss */
+a {
+  color: #006699; }
+
+/* line 24, main.scss */
+.btn {
+  font-size: 16px;
+  padding: 1em; }
+
+/* line 28, main.scss */
+h3 {
+  color: #2E2E2E;
+  font-size: 26px;
+  text-align: center;
+  margin: 40px; }
+
+/* line 35, main.scss */
+nav {
+  background-color: #006699;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  font-weight: 600; }
+  /* line 39, main.scss */
+  nav .navbar-brand {
+/*    font-family: 'Bangers', cursive;*/
+    font-size: 30px;
+    padding-top: 5px; }
+  /* line 44, main.scss */
+  nav .dropdown-menu {
+    right: 20px; }
+    /* line 47, main.scss */
+    nav .dropdown-menu .dropdown-item svg {
+      color: #2E2E2E;
+      margin-right: 10px; }
+
+/* line 55, main.scss */
+.jumbotron {
+  background-color: #006699;
+  text-align: center;
+  color: #fff;
+  padding: 12em 0 8em 0; }
+  /* line 60, main.scss */
+  .jumbotron img {
+    max-width: 100px;
+    margin-bottom: 2em; }
+  /* line 64, main.scss */
+  .jumbotron hr {
+    border-color: rgba(255, 255, 255, 0.3); }
+  /* line 67, main.scss */
+  .jumbotron h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: .5em 1em;
+    max-width: 1200px;
+    margin: 0 auto; }
+  /* line 78, main.scss */
+  .jumbotron p {
+    margin-top: 10px; }
+  /* line 81, main.scss */
+  .jumbotron .btn {
+    background-color: #2E2E2E;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px; }
+    /* line 86, main.scss */
+    .jumbotron .btn svg {
+      margin-right: 7px; }
+
+/* line 93, main.scss */
+.video-section {
+  padding: 0 0 3em 0; }
+  /* line 95, main.scss */
+  .video-section .embed-responsive {
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0px 50px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.01); }
+
+/* line 103, main.scss */
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0; }
+
+/* line 108, main.scss */
+#green {
+  background-color: #006699; }
+  /* line 110, main.scss */
+  #green svg {
+    color: #79cc60; }
+
+/* line 114, main.scss */
+#orange {
+  background-color: #f39c12; }
+  /* line 116, main.scss */
+  #orange svg {
+    color: #f39c12; }
+
+/* line 120, main.scss */
+#purp {
+  background-color: #9b59b6; }
+  /* line 122, main.scss */
+  #purp svg {
+    color: #9b59b6; }
+
+/* line 126, main.scss */
+.info-container {
+  text-align: center;
+  padding: 3em 0 0 0; }
+  /* line 130, main.scss */
+  .info-container .box-wrap .info-box {
+    padding: 4em;
+    color: #fff; }
+    /* line 133, main.scss */
+    .info-container .box-wrap .info-box h2 {
+      font-size: 26px;
+      font-weight: 900;
+      margin-bottom: 5px; }
+    /* line 138, main.scss */
+    .info-container .box-wrap .info-box svg {
+      font-size: 3em;
+      color: #fff;
+      background-color: #fff;
+      border-radius: 1.5em;
+      padding: 20px;
+      height: 70px;
+      width: 70px;
+      position: relative;
+      margin-bottom: 20px; }
+
+/* line 155, main.scss */
+.cta {
+  text-align: center;
+  background-color: #fff;
+  color: #2E2E2E;
+  margin: 0 auto; }
+  /* line 160, main.scss */
+  .cta h4 {
+    margin-bottom: 1em; }
+  /* line 163, main.scss */
+  .cta .btn {
+    background-color: #006699;
+    color: #fff;
+    border: none; }
+    /* line 167, main.scss */
+    .cta .btn svg {
+      margin-left: 5px; }
+
+/* line 179, main.scss */
+.post-section {
+  padding: 1em 0; }
+  /* line 181, main.scss */
+  .post-section h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    max-width: 900px; }
+  /* line 186, main.scss */
+  .post-section img {
+    margin-bottom: 15px; }
+  /* line 189, main.scss */
+  .post-section .hr-tick {
+    width: 50px;
+    border: 1px solid #006699;
+    margin: 1em 0; }
+  /* line 194, main.scss */
+  .post-section .author {
+    margin: 0 0 5px 0;
+    font-weight: 600; }
+    /* line 197, main.scss */
+    .post-section .author svg {
+      color: #006699;
+      font-size: 1.1em;
+      margin-right: 2px; }
+  /* line 203, main.scss */
+  .post-section .date {
+    color: #686868;
+    font-size: 12px; }
+
+/* line 208, main.scss */
+.footer {
+  background-color: #006699;
+  text-align: center;
+  color: #fff;
+  padding: 3em; }
+  /* line 214, main.scss */
+  .footer svg {
+    font-size: 2em;
+    margin: 0 7px;
+    transition: .3s; }
+    /* line 218, main.scss */
+    .footer svg:hover {
+      transform: scale(1.2);
+      cursor: pointer; }
